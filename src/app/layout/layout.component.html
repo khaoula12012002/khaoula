@@ -1,0 +1,50 @@
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" role="status"></div>
+  </div>
+  
+  <!-- Navbar Start -->
+  <nav class="navbar fixed-top  navbar-expand-lg navbar-dark " >
+       <div class="navbar-brand ms-4 ms-lg-0">
+        <a routerLink=""class="logo">OeilProd & Pub</a>
+        </div>
+      
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto p-4 p-lg-0">
+            <a href="/home" class="nav-item nav-link active">Acceuil</a>
+            <a routerLink="/about" class="nav-item nav-link">Présentation</a>
+            <a routerLink="/services" class="nav-item nav-link">Services</a>
+            <a routerLink="/clients" class="nav-item nav-link">Clients</a>
+            <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+        </div>
+        <div class="navbar-nav mx-auto p-4 p-lg-0">
+          <a routerLink="/login" class="nav-item nav-link">Se connecter</a>
+          <a routerLink="/signup"class="nav-item nav-link">Inscription</a>
+        </div>
+       
+    </div>
+  </nav>
+  <!-- Navbar End -->
+  
+
+<router-outlet></router-outlet>
+
+<div class="container-fluid footer">
+    <div class="row">
+        <!--title-->
+        <div class="col-lg-4">
+           <h1> OeilProd & Pub</h1> 
+           <p>La Premiére agence de production radio en Tunisie</p>
+        </div>
+        <!--nav-->
+
+    
+           <!--Social media-->
+        <div class="col-lg-5">
+            <a href ="https://www.facebook.com/edenya.tv" target="_blank"><i class="bi bi-facebook"></i>Facebook</a>
+            <a href ="https://www.youtube.com/@oeilprod" target="_blank"><i class="bi bi-youtube"></i>Youtube</a>
+            <a href ="https://www.instagram.com/oeil_prod/?hl=fr" target="_blank"><i class="bi bi-instagram"></i>Instagramm</a>
+        </div>
+    </div>
+</div>
+
